@@ -10,7 +10,7 @@ class EventRepository
 {
     public static function getAllEvents($params){
         try{
-            return Event::where('state','!=','REMOVED')->get(['id','name','state']);
+            return Event::where('state','!=',0)->get(['id','name','state']);
         }catch(Exception $exc){
             return 'Error :=> '.$exc;
         }

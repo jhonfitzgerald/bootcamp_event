@@ -17,7 +17,7 @@ class EventController extends Controller
 
     public function index()
     {
-        return view('backend.dashboard');
+        return view('event');
     }
 
     public function getAllEvents(){

@@ -10,7 +10,7 @@ class OrganizerRepository
 {
     public static function getAllOrganizers($params){
         try{
-            return Organizer::where('state','!=','REMOVED')->get(['id','name','state']);
+            return Organizer::where('state','!=',0)->get(['id','name','state']);
         }catch(Exception $exc){
             return 'Error :=> '.$exc;
         }

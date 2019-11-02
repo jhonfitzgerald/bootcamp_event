@@ -10,7 +10,7 @@ class CategoryRepository
 {
     public static function getAllCategories($params){
         try{
-            return Category::where('state','!=','REMOVED')->get(['id','name','state']);
+            return Category::where('state','!=',0)->get(['id','name','state']);
         }catch(Exception $exc){
             return 'Error :=> '.$exc;
         }

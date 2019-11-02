@@ -1,0 +1,430 @@
+.btn {
+    border-radius: 5px;
+}
+
+.modal .panel-body {
+    color: #444;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.3);
+    overflow: auto !important;
+}
+
+.modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+    border: 0;
+}
+
+.modal-90percent {
+    max-width: 90% !important;
+}
+
+@media (min-width: 768px) {
+    .modal-content {
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+    }
+}
+
+.modal-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-list li {
+    cursor: pointer;
+}
+
+.item-list li div:hover {
+    border-color: #1991EB;
+}
+
+.label-name {
+    font-size: smaller;
+    color: gray;
+    padding-left: 20px;
+}
+
+.p-name {
+    margin: 0;
+}
+
+.label-preps {
+    font-size: smaller;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div-col-print {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.label-workarea {
+    font-size: small;
+    color: gray
+}
+
+.fa-color-red {
+    color: #FE7165
+}
+
+.fa-color-money {
+    color: #58D8A3;
+    padding-right: 7px;
+}
+
+.p-r-15 {
+    padding-right: 15px;
+}
+
+.p-l-15 {
+    padding-left: 15px;
+}
+
+.modal-title-h {
+    padding-bottom: 0;
+    margin: auto
+}
+
+.label-new {
+    border-radius: 13%;
+}
+
+.pagination-custom {
+    margin-top: 15px;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.logo-position-center {
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo-position-center h5 {
+    padding-bottom: 5px;
+}
+
+.tab-label {
+    text-indent: 30px;
+    padding-bottom: 5px;
+}
+
+.nav_link {
+    padding-left: 26px !important;
+}
+
+.row-input {
+    display: inline-block;
+}
+
+.right {
+    text-align: right;
+}
+
+.button-super-right {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+}
+
+.button-super-left {
+    position: absolute;
+    left: 1%;
+    margin: 0 !important;
+    display: inline-block;
+}
+
+.input-setting-basic {
+    background-color: white !important;
+    border-color: white;
+    font-weight: bold;
+}
+
+.br {
+    margin-bottom: 10px;
+}
+
+.modal-text-center {
+    margin: 0 auto;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image-controls {
+    position: absolute;
+    top: 21%;
+    bottom: auto;
+    width: 180px;
+    color: white;
+    background-color: rgba(78, 72, 72, 0.685);
+    visibility: hidden;
+    padding: 5px;
+}
+
+.margin-button {
+    margin: auto !important;
+}
+
+.bar-edit-delete-image {
+    width: 150px;
+    display: table;
+    margin: 0 auto;
+}
+
+.bar-edit-delete-image:hover .image-controls {
+    visibility: visible;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.footer-ctic {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.footer-unas {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: end;
+    line-height: normal;
+}
+
+.header-icon {
+    color: white;
+}
+
+.navbar-icon {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.blue {
+    color: #1991EB;
+}
+
+.red {
+    color: red !important;
+}
+
+.green {
+    color: green !important;
+}
+
+.btnBorder {
+    border-radius: .25rem;
+}
+
+.inLine {
+    display: inline-block;
+}
+
+.colorStd {
+    background-color: #f2ffed !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.middle {
+    margin: auto 0 !important;
+    vertical-align: middle !important;
+}
+
+.panel-date {
+    border-radius: 3px;
+}
+
+.panel-date-default {
+    border-color: #dee5e7;
+}
+
+.panel-date-default>.panel-date-heading,
+.panel-date-default>.panel-date-footer {
+    border-color: #edf1f2;
+}
+
+.panel-date-default .panel-date-heading {
+    background-color: #277708;
+    color: white;
+}
+
+.panel-date-default .panel-date-footer {
+    background-color: white;
+}
+
+.panel-date-heading {
+    text-align: center !important;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.panel-date-footer {
+    text-align: center !important;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.tag-year {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.tag-month {
+    background-color: #0c600c;
+    color: white;
+    width: 100%;
+}
+
+.margin-cero {
+    margin-bottom: 0px !important
+}
+
+.center-cell {
+    vertical-align: inherit !important;
+}
+
+.max75prcnt {
+    max-width: 75%;
+}
+
+.fontsmall {
+    font-size: small !important;
+}
+
+.space-botton {
+    margin-bottom: 15px !important
+}
+
+.btn-link {
+    color: #58666e;
+}
+
+.table-schedule {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-top-color: transparent !important;
+}
+
+.margin-cerot {
+    margin-top: 0px !important
+}
+
+.td-schedule {
+    padding: 0.15rem !important;
+}
+
+.input-schedule {
+    width: 100%;
+    height: 34px;
+    border-radius: 0.15rem;
+    background-color: #f0f0f0 !important;
+}
+
+.badge-defecto {
+    color: #fff;
+    background-color: #676d69;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-botton-10px {
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.select2-container--bootstrap .select2-selection--single {
+    height: 35px;
+    padding: 6px 24px 6px 12px;
+}
+
+.select2-container--bootstrap .select2-results__option {
+    line-height: normal;
+}
+
+.select2-results__option[aria-selected=true] {
+    display: none;
+}
+
+.label-li-sorter {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.downtype:hover {
+    background: #d4d4d4;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.upper-notification {
+    font-size: .7em;
+    display: block;
+    position: absolute;
+    top: -.75em;
+    right: -.5em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}

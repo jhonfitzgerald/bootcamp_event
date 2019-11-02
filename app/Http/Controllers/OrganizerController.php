@@ -17,7 +17,7 @@ class OrganizerController extends Controller
 
     public function index()
     {
-        return view('backend.dashboard');
+        return view('organizer');
     }
 
     public function getAllOrganizers(){
