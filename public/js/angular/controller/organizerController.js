@@ -76,7 +76,6 @@ app.controller('organizerController', ['$rootScope', '$scope', 'organizerService
     }
 
     $scope.action = function() {
-        console.log('entroooo');
         if ($scope.type == 'save' || $scope.type == 'edit')
             $scope.saveUpdate();
         else if ($scope.type == 'delete')
